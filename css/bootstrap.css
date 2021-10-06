@@ -294,13 +294,14 @@ th {
         border-collapse: collapse !important
     }
     .table td,
-    .table th {
-        background-color: #fff !important
+    .table th  {
+        background-color:#fff !important
+  
     }
     .table-bordered td,
     .table-bordered th {
-        border: 1px solid #ddd !important
-    }
+        border: 1px solid #ddd !important 
+    } 
 }
 
 @font-face {
@@ -1437,7 +1438,8 @@ img {
 .thumbnail>img {
     display: block;
     max-width: 100%;
-    height: auto
+    height: auto;
+  
 }
 
 .img-rounded {
@@ -1731,7 +1733,7 @@ a.text-danger:hover {
 }
 
 .bg-primary {
-    color: #fff;
+    color:#fff;
     background-color: #337ab7
 }
 
@@ -1840,7 +1842,7 @@ dd {
         text-overflow: ellipsis;
         white-space: nowrap
     }
-    .dl-horizontal dd {
+    .dl-horizontal dd { 
         margin-left: 180px
     }
 }
@@ -3695,7 +3697,7 @@ textarea.input-lg {
 
 .btn.active,
 .btn:active {
-    background-image: none;
+    background-image:none;
     outline: 0;
     -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
@@ -7228,7 +7230,7 @@ button.close {
     word-wrap: normal;
     white-space: normal;
     filter: alpha(opacity=0);
-    opacity: 0;
+    opacity:0;
     line-break: auto
 }
 
@@ -7682,8 +7684,8 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
-    background-color: rgba(0, 0, 0, 0);
+    background-color:rgb(170, 156, 156);
+
     border: 1px solid #fff;
     border-radius: 10px
 }
@@ -7815,7 +7817,7 @@ button.close {
 }
 
 .invisible {
-    visibility: hidden
+    visibility: hidden;
 }
 
 .text-hide {
@@ -7842,7 +7844,7 @@ button.close {
 .visible-md,
 .visible-sm,
 .visible-xs {
-    display: none !important
+    display: none!important
 }
 
 .visible-lg-block,
