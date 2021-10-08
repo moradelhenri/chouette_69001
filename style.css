@@ -1,10 +1,12 @@
 body {
     margin: 0;
     padding: 0;
-    background: #FFF;
-    overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  
+    font-family: "Helvetica", "sans-serif";
+   
+}
+#bloc-8{background-color:#c2785679 ;
+
 }
 
 a,
@@ -361,7 +363,34 @@ a:hover {
     position: relative;
     z-index: 2;
 }
+p,.text-center{ font-size: 18px;
 
+}
+
+#bloc-6{background-color:#c2785679 ;
+
+}
+.hero-bloc-text{  color:#c2785679 ;
+
+}
+.col-xs-12 {color:#c2785679 ;
+
+}
+.col-sm-6 p {font-size: 16px;
+
+}
+
+.tight-width-whitespace span { color:#b8860b ;
+   
+
+}
+
+.tc-white span{color:#b8860b ;
+
+}
+.col-sm-4{margin-top: 20px;
+
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -435,9 +464,10 @@ nav .caret {
     float: right;
 }
 
-.mg-md {
+.mg-md {                          /*réparation contraste h2 mg-md*/
     margin-top: 10px;
     margin-bottom: 20px;
+    color: #000000;
 }
 
 .mg-lg {
@@ -686,7 +716,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 22px;
     font-family: "Open Sans";
 }
 
@@ -705,12 +735,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 20px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -775,17 +805,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffd700!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
-    color: #FFFFFF!important;
+    background:#c2785679!important;
+    color: #fff!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    color:#846f13!important;
+    color: #FFF!important;
 }
 
 .ltc-white {
@@ -797,11 +827,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color:#c2846f13!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color:#846f13!important;
 }
 
 .icon-dark-slate-blue {
