@@ -3579,7 +3579,8 @@ textarea.input-lg {
     }
     .form-inline .input-group .form-control,
     .form-inline .input-group .input-group-addon,
-    .form-inline .input-group .input-group-btn {
+    .form-inline .input-group .input-group-btn   
+    {
         width: auto
     }
     .form-inline .input-group>.form-control {
